@@ -34,8 +34,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li><router-link to="/"><i class="fa fa-circle-o"></i> Dashboard v1</router-link></li>
+            <li class="active">
+              <router-link to="/dashboard2"><i class="fa fa-circle-o"></i> Dashboard v2</router-link></li>
           </ul>
         </li>
         <li class="treeview">
@@ -54,21 +55,21 @@
           </ul>
         </li>
         <li>
-          <a href="pages/widgets.html">
+          <router-link to="/widgets">
             <i class="fa fa-th"></i> <span>Widgets</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-green">new</small>
             </span>
-          </a>
+          </router-link>
         </li>
         <li class="treeview">
-          <a href="#">
+          <router-link to="/charts">
             <i class="fa fa-pie-chart"></i>
             <span>Charts</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
-          </a>
+          </router-link>
           <ul class="treeview-menu">
             <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> ChartJS</a></li>
             <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Morris</a></li>

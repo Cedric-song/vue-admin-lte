@@ -77,8 +77,8 @@
     data () {
       return {
         breadcrumb: [
-        { url: '/', icon: 'fa fa-dashboard', title: 'Home' },
-        { title: 'Dashboard', active: true }
+          { url: '/', icon: 'fa fa-dashboard', title: 'Home' },
+          { title: 'Dashboard', active: true }
         ]
       }
     }
